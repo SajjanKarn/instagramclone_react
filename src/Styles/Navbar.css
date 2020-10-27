@@ -1,0 +1,18 @@
+.navbar__main {
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  -webkit-box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  top: 0;
+  z-index: 1;
+}
+
+.insta__logo {
+  width: 120px;
+}

@@ -1,0 +1,55 @@
+.post__main {
+  max-width: 500px;
+  border: 1px solid lightgray;
+  margin: 20px 0 20px;
+  -webkit-box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 22px -9px rgba(0, 0, 0, 0.75);
+}
+.likes__container {
+  padding: 10px 15px 0;
+}
+.likes__container i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.caption__container {
+  padding: 0 15px 10px;
+}
+.avatar__collection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.avatar__collection p {
+  margin: 0 5px;
+  font-weight: 600;
+}
+
+.form_comments {
+  display: flex;
+  border: 1px solid lightgray;
+}
+.form_comments input {
+  flex: 1;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+}
+.form_comments .button_add_comment {
+  flex: 0;
+  font-size: 15px;
+}
+
+.all_comments {
+  padding: 5px 15px;
+}
